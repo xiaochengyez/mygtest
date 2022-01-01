@@ -1,0 +1,400 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage
+  SYSTEM 'http://cobertura.sourceforge.net/xml/coverage-04.dtd'>
+<coverage branch-rate="0.370192307692" branches-covered="77" branches-valid="208" complexity="0.0" line-rate="0.720930232558" lines-covered="93" lines-valid="129" timestamp="1639473672" version="gcovr 3.4">
+<sources>
+<source>.</source>
+</sources>
+<packages>
+<package branch-rate="0.5" complexity="0.0" line-rate="1.0" name="">
+<classes>
+<class branch-rate="0.5" complexity="0.0" filename="main.cpp" line-rate="1.0" name="main_cpp">
+<methods/>
+<lines>
+<line branch="false" hits="1" number="3"/>
+<line branch="false" hits="1" number="5"/>
+<line branch="false" hits="1" number="6"/>
+<line branch="false" hits="1" number="7"/>
+<line branch="true" condition-coverage="50% (2/4)" hits="3" number="8">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+</lines>
+</class>
+</classes>
+</package>
+<package branch-rate="0.0714285714286" complexity="0.0" line-rate="0.243902439024" name="googletest.include.gtest">
+<classes>
+<class branch-rate="0.0" complexity="0.0" filename="googletest/include/gtest/gtest-message.h" line-rate="1.0" name="gtest-message_h">
+<methods/>
+<lines>
+<line branch="false" hits="223" number="89"/>
+</lines>
+</class>
+<class branch-rate="0.0" complexity="0.0" filename="googletest/include/gtest/gtest-printers.h" line-rate="0.0" name="gtest-printers_h">
+<methods/>
+<lines>
+<line branch="false" hits="0" number="210"/>
+<line branch="false" hits="0" number="213"/>
+<line branch="false" hits="0" number="304"/>
+<line branch="false" hits="0" number="310"/>
+<line branch="false" hits="0" number="331"/>
+<line branch="false" hits="0" number="332"/>
+<line branch="false" hits="0" number="411"/>
+<line branch="false" hits="0" number="413"/>
+<line branch="false" hits="0" number="438"/>
+<line branch="false" hits="0" number="439"/>
+<line branch="false" hits="0" number="692"/>
+<line branch="false" hits="0" number="701"/>
+<line branch="false" hits="0" number="882"/>
+<line branch="false" hits="0" number="883"/>
+<line branch="false" hits="0" number="994"/>
+<line branch="false" hits="0" number="998"/>
+<line branch="false" hits="0" number="1034"/>
+<line branch="true" condition-coverage="0% (0/2)" hits="0" number="1035">
+<conditions>
+<condition coverage="0%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="0% (0/2)" hits="0" number="1036">
+<conditions>
+<condition coverage="0%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="0% (0/2)" hits="0" number="1037">
+<conditions>
+<condition coverage="0%" number="0" type="jump"/>
+</conditions>
+</line>
+</lines>
+</class>
+<class branch-rate="0.125" complexity="0.0" filename="googletest/include/gtest/gtest.h" line-rate="0.45" name="gtest_h">
+<methods/>
+<lines>
+<line branch="false" hits="12" number="286"/>
+<line branch="false" hits="12" number="327"/>
+<line branch="false" hits="0" number="336"/>
+<line branch="true" condition-coverage="0% (0/2)" hits="0" number="337">
+<conditions>
+<condition coverage="0%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="false" hits="0" number="340"/>
+<line branch="false" hits="0" number="430"/>
+<line branch="false" hits="0" number="438"/>
+<line branch="false" hits="0" number="443"/>
+<line branch="false" hits="0" number="444"/>
+<line branch="false" hits="0" number="525"/>
+<line branch="false" hits="0" number="1529"/>
+<line branch="true" condition-coverage="0% (0/4)" hits="0" number="1536">
+<conditions>
+<condition coverage="0%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="false" hits="12" number="1548"/>
+<line branch="true" condition-coverage="50% (1/2)" hits="12" number="1552">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="false" hits="12" number="1553"/>
+<line branch="false" hits="0" number="1556"/>
+<line branch="false" hits="12" number="1568"/>
+<line branch="false" hits="12" number="1571"/>
+<line branch="false" hits="1" number="2496"/>
+<line branch="false" hits="1" number="2497"/>
+</lines>
+</class>
+</classes>
+</package>
+<package branch-rate="0.239130434783" complexity="0.0" line-rate="0.916666666667" name="googletest.include.gtest.internal">
+<classes>
+<class branch-rate="0.239130434783" complexity="0.0" filename="googletest/include/gtest/internal/gtest-internal.h" line-rate="0.913043478261" name="gtest-internal_h">
+<methods/>
+<lines>
+<line branch="false" hits="12" number="433"/>
+<line branch="false" hits="12" number="438"/>
+<line branch="false" hits="12" number="452"/>
+<line branch="false" hits="12" number="459"/>
+<line branch="false" hits="36" number="468"/>
+<line branch="true" condition-coverage="50% (4/8)" hits="12" number="470">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="false" hits="36" number="490"/>
+<line branch="false" hits="12" number="491"/>
+<line branch="false" hits="12" number="492"/>
+<line branch="false" hits="48" number="504"/>
+<line branch="true" condition-coverage="50% (1/2)" hits="48" number="506">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="false" hits="12" number="519"/>
+<line branch="false" hits="12" number="522"/>
+<line branch="false" hits="12" number="524"/>
+<line branch="true" condition-coverage="25% (2/8)" hits="12" number="527">
+<conditions>
+<condition coverage="25%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="0% (0/8)" hits="0" number="530">
+<conditions>
+<condition coverage="0%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="50% (1/2)" hits="12" number="532">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="false" hits="12" number="540"/>
+<line branch="false" hits="12" number="543"/>
+<line branch="false" hits="12" number="545"/>
+<line branch="true" condition-coverage="25% (2/8)" hits="12" number="548">
+<conditions>
+<condition coverage="25%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="0% (0/8)" hits="0" number="551">
+<conditions>
+<condition coverage="0%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="50% (1/2)" hits="12" number="553">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+</lines>
+</class>
+<class branch-rate="0.0" complexity="0.0" filename="googletest/include/gtest/internal/gtest-port.h" line-rate="1.0" name="gtest-port_h">
+<methods/>
+<lines>
+<line branch="false" hits="3" number="980"/>
+</lines>
+</class>
+</classes>
+</package>
+<package branch-rate="0.557692307692" complexity="0.0" line-rate="0.923076923077" name="src">
+<classes>
+<class branch-rate="0.557692307692" complexity="0.0" filename="src/handlePath.cpp" line-rate="0.923076923077" name="handlePath_cpp">
+<methods/>
+<lines>
+<line branch="true" condition-coverage="50% (1/2)" hits="3" number="8">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="false" hits="9" number="11"/>
+<line branch="false" hits="18" number="12"/>
+<line branch="false" hits="9" number="13"/>
+<line branch="true" condition-coverage="50% (1/2)" hits="9" number="16">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="50% (1/2)" hits="18" number="17">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="100% (2/2)" hits="9" number="19">
+<conditions>
+<condition coverage="100%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="50% (1/2)" hits="3" number="20">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="false" hits="3" number="21"/>
+<line branch="false" hits="6" number="24"/>
+<line branch="true" condition-coverage="50% (1/2)" hits="6" number="26">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="50% (1/2)" hits="6" number="28">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="0% (0/2)" hits="0" number="29">
+<conditions>
+<condition coverage="0%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="50% (1/2)" hits="6" number="31">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="50% (1/2)" hits="6" number="32">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="false" hits="6" number="35"/>
+<line branch="false" hits="12" number="41"/>
+<line branch="false" hits="24" number="42"/>
+<line branch="false" hits="12" number="43"/>
+<line branch="false" hits="12" number="44"/>
+<line branch="true" condition-coverage="83% (5/6)" hits="12" number="45">
+<conditions>
+<condition coverage="83%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="50% (1/2)" hits="3" number="46">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="false" hits="3" number="47"/>
+<line branch="true" condition-coverage="50% (1/2)" hits="9" number="49">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="50% (2/4)" hits="9" number="50">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="100% (2/2)" hits="9" number="51">
+<conditions>
+<condition coverage="100%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="50% (1/2)" hits="3" number="52">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="false" hits="3" number="53"/>
+<line branch="true" condition-coverage="100% (2/2)" hits="6" number="56">
+<conditions>
+<condition coverage="100%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="false" hits="3" number="58"/>
+<line branch="true" condition-coverage="50% (1/2)" hits="3" number="59">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="50% (1/2)" hits="3" number="60">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="false" hits="3" number="61"/>
+<line branch="true" condition-coverage="0% (0/2)" hits="0" number="63">
+<conditions>
+<condition coverage="0%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="false" hits="0" number="64"/>
+<line branch="true" condition-coverage="50% (1/2)" hits="3" number="67">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="false" hits="3" number="68"/>
+<line branch="false" hits="6" number="71"/>
+<line branch="true" condition-coverage="50% (2/4)" hits="9" number="72">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+</lines>
+</class>
+</classes>
+</package>
+<package branch-rate="0.369565217391" complexity="0.0" line-rate="1.0" name="test">
+<classes>
+<class branch-rate="0.369565217391" complexity="0.0" filename="test/handleTest.cpp" line-rate="1.0" name="handleTest_cpp">
+<methods/>
+<lines>
+<line branch="false" hits="24" number="15"/>
+<line branch="false" hits="12" number="17"/>
+<line branch="false" hits="12" number="18"/>
+<line branch="false" hits="12" number="20"/>
+<line branch="true" condition-coverage="50% (3/6)" hits="15" number="27">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="50% (3/6)" hits="3" number="28">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="20% (2/10)" hits="3" number="29">
+<conditions>
+<condition coverage="20%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="false" hits="3" number="30"/>
+<line branch="true" condition-coverage="50% (3/6)" hits="15" number="31">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="50% (3/6)" hits="3" number="32">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="20% (2/10)" hits="3" number="33">
+<conditions>
+<condition coverage="20%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="false" hits="3" number="34"/>
+<line branch="true" condition-coverage="50% (3/6)" hits="15" number="35">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="50% (3/6)" hits="3" number="36">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="20% (2/10)" hits="3" number="37">
+<conditions>
+<condition coverage="20%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="false" hits="3" number="38"/>
+<line branch="true" condition-coverage="50% (3/6)" hits="15" number="39">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="50% (3/6)" hits="3" number="40">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="20% (2/10)" hits="3" number="41">
+<conditions>
+<condition coverage="20%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="50% (2/4)" hits="12" number="42">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+</lines>
+</class>
+</classes>
+</package>
+</packages>
+</coverage>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="1" disabled="0" errors="0" time="0" timestamp="2021-12-17T20:00:24.554" name="AllTests">
+  <testsuite name="handleTest" tests="4" failures="1" disabled="0" skipped="0" errors="0" time="0" timestamp="2021-12-17T20:00:24.554">
+    <testcase name="createFolder1" status="run" result="completed" time="0" timestamp="2021-12-17T20:00:24.554" classname="handleTest" />
+    <testcase name="createFolder2" status="run" result="completed" time="0" timestamp="2021-12-17T20:00:24.554" classname="handleTest" />
+    <testcase name="createFolder3" status="run" result="completed" time="0" timestamp="2021-12-17T20:00:24.554" classname="handleTest" />
+    <testcase name="createFolder4" status="run" result="completed" time="0" timestamp="2021-12-17T20:00:24.554" classname="handleTest">
+      <failure message="/home/gongxc/CLionProjects/misysTest/handleTest.cpp:42&#x0A;Expected equality of these values:&#x0A;  result&#x0A;    Which is: 14&#x0A;  12" type=""><![CDATA[/home/gongxc/CLionProjects/misysTest/handleTest.cpp:42
+Expected equality of these values:
+  result
+    Which is: 14
+  12]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

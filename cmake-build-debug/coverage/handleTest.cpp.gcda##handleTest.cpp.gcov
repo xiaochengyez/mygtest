@@ -1,0 +1,527 @@
+        -:    0:Source:/home/gongxc/CLionProjects/misysTest/test/handleTest.cpp
+        -:    0:Graph:/home/gongxc/CLionProjects/misysTest/cmake-build-debug/CMakeFiles/misysTest.dir/test/handleTest.cpp.gcno
+        -:    0:Data:/home/gongxc/CLionProjects/misysTest/cmake-build-debug/CMakeFiles/misysTest.dir/test/handleTest.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1://
+        -:    2:// Created by gongxc on 2021/12/14.
+        -:    3://
+        -:    4:
+        -:    5:#include "../src/handlePath.h"
+        -:    6:#include <gtest/gtest.h>
+        -:    7:
+        -:    8:
+        -:    9:#ifdef LOG_TAG
+        -:   10:#undef LOG_TAG
+        -:   11:#endif
+        -:   12:#define LOG_TAG "handle-test"
+        -:   13:
+        -:   14:
+function _ZN10handleTestC2Ev called 4 returned 100% blocks executed 100%
+function _ZN10handleTestD0Ev called 0 returned 0% blocks executed 0%
+function _ZN10handleTestD2Ev called 4 returned 100% blocks executed 100%
+       16:   15:class handleTest : public ::testing::Test {
+        4:   15-block  0
+        4:   15-block  1
+call    0 returned 4
+    $$$$$:   15-block  2
+    $$$$$:   15-block  3
+call    1 never executed
+call    2 never executed
+        4:   15-block  4
+        4:   15-block  5
+call    3 returned 4
+        -:   16:public:
+function _ZN10handleTest5SetUpEv called 4 returned 100% blocks executed 100%
+        4:   17:    virtual void SetUp() override {
+        4:   17-block  0
+        4:   18:        rmdir("/home/gongxc/mini/gongxc");
+        4:   18-block  0
+call    0 returned 4
+        -:   19:
+        4:   20:    }
+        -:   21:
+        -:   22:protected:
+        -:   23:    int result;
+        -:   24:};
+        -:   25:
+        -:   26:
+function _ZN29handleTest_createFolder1_TestC2Ev called 1 returned 100% blocks executed 100%
+function _ZN29handleTest_createFolder1_TestD0Ev called 1 returned 100% blocks executed 100%
+function _ZN29handleTest_createFolder1_TestD2Ev called 1 returned 100% blocks executed 100%
+function _ZN29handleTest_createFolder1_Test8TestBodyEv called 1 returned 100% blocks executed 34%
+        8:   27:TEST_F(handleTest, createFolder1) {
+        1:   27-block  0
+        1:   27-block  1
+call    0 returned 1
+call    1 returned 1
+call    2 returned 1
+call    3 returned 1
+call    4 returned 1
+call    5 returned 1
+call    6 returned 1
+call    7 returned 1
+branch  8 taken 1 (fallthrough)
+branch  9 taken 0 (throw)
+        1:   27-block  2
+call   10 returned 1
+branch 11 taken 1 (fallthrough)
+branch 12 taken 0 (throw)
+        1:   27-block  3
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   27-block  4
+call   16 returned 1
+call   17 returned 1
+call   18 returned 1
+    %%%%%:   27-block  5
+call   19 never executed
+    %%%%%:   27-block  6
+    %%%%%:   27-block  7
+call   20 never executed
+    %%%%%:   27-block  8
+    %%%%%:   27-block  9
+call   21 never executed
+    %%%%%:   27-block 10
+call   22 never executed
+        1:   27-block 11
+        1:   27-block 12
+call   23 returned 1
+call   24 returned 1
+        1:   27-block 13
+        1:   27-block 14
+call   25 returned 1
+        1:   27-block 15
+        1:   28:    result = handlePath::CreateFolder("/gongxc","");
+        1:   28-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   28-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   28-block  2
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   28-block  3
+call   11 returned 1
+call   12 returned 1
+call   13 returned 1
+call   14 returned 1
+    %%%%%:   28-block  4
+call   15 never executed
+    %%%%%:   28-block  5
+    %%%%%:   28-block  6
+call   16 never executed
+    %%%%%:   28-block  7
+    %%%%%:   28-block  8
+call   17 never executed
+    %%%%%:   28-block  9
+    %%%%%:   28-block 10
+call   18 never executed
+    %%%%%:   28-block 11
+call   19 never executed
+    %%%%%:   28-block 12
+        1:   29:    EXPECT_EQ(result,-1);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   29-block  0
+call    3 returned 1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 1
+    $$$$$:   29-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    $$$$$:   29-block  2
+call    9 never executed
+call   10 never executed
+branch 11 never executed
+branch 12 never executed
+    $$$$$:   29-block  3
+call   13 never executed
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   29-block  4
+call   16 never executed
+call   17 never executed
+        1:   29-block  5
+call   18 returned 1
+    %%%%%:   29-block  6
+    %%%%%:   29-block  7
+call   19 never executed
+    %%%%%:   29-block  8
+    %%%%%:   29-block  9
+call   20 never executed
+    %%%%%:   29-block 10
+    %%%%%:   29-block 11
+call   21 never executed
+        1:   30:}
+function _ZN29handleTest_createFolder2_TestC2Ev called 1 returned 100% blocks executed 100%
+function _ZN29handleTest_createFolder2_TestD0Ev called 1 returned 100% blocks executed 100%
+function _ZN29handleTest_createFolder2_TestD2Ev called 1 returned 100% blocks executed 100%
+function _ZN29handleTest_createFolder2_Test8TestBodyEv called 1 returned 100% blocks executed 34%
+        8:   31:TEST_F(handleTest, createFolder2) {
+        1:   31-block  0
+        1:   31-block  1
+call    0 returned 1
+call    1 returned 1
+call    2 returned 1
+call    3 returned 1
+call    4 returned 1
+call    5 returned 1
+call    6 returned 1
+call    7 returned 1
+branch  8 taken 1 (fallthrough)
+branch  9 taken 0 (throw)
+        1:   31-block  2
+call   10 returned 1
+branch 11 taken 1 (fallthrough)
+branch 12 taken 0 (throw)
+        1:   31-block  3
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   31-block  4
+call   16 returned 1
+call   17 returned 1
+call   18 returned 1
+    %%%%%:   31-block  5
+call   19 never executed
+    %%%%%:   31-block  6
+    %%%%%:   31-block  7
+call   20 never executed
+    %%%%%:   31-block  8
+    %%%%%:   31-block  9
+call   21 never executed
+    %%%%%:   31-block 10
+call   22 never executed
+        1:   31-block 11
+        1:   31-block 12
+call   23 returned 1
+call   24 returned 1
+        1:   31-block 13
+        1:   31-block 14
+call   25 returned 1
+        1:   31-block 15
+        1:   32:    result = handlePath::CreateFolder("/home/gongxc","/mini");
+        1:   32-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   32-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   32-block  2
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   32-block  3
+call   11 returned 1
+call   12 returned 1
+call   13 returned 1
+call   14 returned 1
+    %%%%%:   32-block  4
+call   15 never executed
+    %%%%%:   32-block  5
+    %%%%%:   32-block  6
+call   16 never executed
+    %%%%%:   32-block  7
+    %%%%%:   32-block  8
+call   17 never executed
+    %%%%%:   32-block  9
+    %%%%%:   32-block 10
+call   18 never executed
+    %%%%%:   32-block 11
+call   19 never executed
+    %%%%%:   32-block 12
+        1:   33:    EXPECT_EQ(result,11);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   33-block  0
+call    3 returned 1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 1
+    $$$$$:   33-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    $$$$$:   33-block  2
+call    9 never executed
+call   10 never executed
+branch 11 never executed
+branch 12 never executed
+    $$$$$:   33-block  3
+call   13 never executed
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   33-block  4
+call   16 never executed
+call   17 never executed
+        1:   33-block  5
+call   18 returned 1
+    %%%%%:   33-block  6
+    %%%%%:   33-block  7
+call   19 never executed
+    %%%%%:   33-block  8
+    %%%%%:   33-block  9
+call   20 never executed
+    %%%%%:   33-block 10
+    %%%%%:   33-block 11
+call   21 never executed
+        1:   34:}
+function _ZN29handleTest_createFolder3_TestC2Ev called 1 returned 100% blocks executed 100%
+function _ZN29handleTest_createFolder3_TestD0Ev called 1 returned 100% blocks executed 100%
+function _ZN29handleTest_createFolder3_TestD2Ev called 1 returned 100% blocks executed 100%
+function _ZN29handleTest_createFolder3_Test8TestBodyEv called 1 returned 100% blocks executed 34%
+        8:   35:TEST_F(handleTest, createFolder3) {
+        1:   35-block  0
+        1:   35-block  1
+call    0 returned 1
+call    1 returned 1
+call    2 returned 1
+call    3 returned 1
+call    4 returned 1
+call    5 returned 1
+call    6 returned 1
+call    7 returned 1
+branch  8 taken 1 (fallthrough)
+branch  9 taken 0 (throw)
+        1:   35-block  2
+call   10 returned 1
+branch 11 taken 1 (fallthrough)
+branch 12 taken 0 (throw)
+        1:   35-block  3
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   35-block  4
+call   16 returned 1
+call   17 returned 1
+call   18 returned 1
+    %%%%%:   35-block  5
+call   19 never executed
+    %%%%%:   35-block  6
+    %%%%%:   35-block  7
+call   20 never executed
+    %%%%%:   35-block  8
+    %%%%%:   35-block  9
+call   21 never executed
+    %%%%%:   35-block 10
+call   22 never executed
+        1:   35-block 11
+        1:   35-block 12
+call   23 returned 1
+call   24 returned 1
+        1:   35-block 13
+        1:   35-block 14
+call   25 returned 1
+        1:   35-block 15
+        1:   36:    result = handlePath::CreateFolder("/home/gongxc/mini","gongxc");
+        1:   36-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   36-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   36-block  2
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   36-block  3
+call   11 returned 1
+call   12 returned 1
+call   13 returned 1
+call   14 returned 1
+    %%%%%:   36-block  4
+call   15 never executed
+    %%%%%:   36-block  5
+    %%%%%:   36-block  6
+call   16 never executed
+    %%%%%:   36-block  7
+    %%%%%:   36-block  8
+call   17 never executed
+    %%%%%:   36-block  9
+    %%%%%:   36-block 10
+call   18 never executed
+    %%%%%:   36-block 11
+call   19 never executed
+    %%%%%:   36-block 12
+        1:   37:    EXPECT_EQ(result,14);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   37-block  0
+call    3 returned 1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 1
+    $$$$$:   37-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    $$$$$:   37-block  2
+call    9 never executed
+call   10 never executed
+branch 11 never executed
+branch 12 never executed
+    $$$$$:   37-block  3
+call   13 never executed
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   37-block  4
+call   16 never executed
+call   17 never executed
+        1:   37-block  5
+call   18 returned 1
+    %%%%%:   37-block  6
+    %%%%%:   37-block  7
+call   19 never executed
+    %%%%%:   37-block  8
+    %%%%%:   37-block  9
+call   20 never executed
+    %%%%%:   37-block 10
+    %%%%%:   37-block 11
+call   21 never executed
+        1:   38:}
+function _ZN29handleTest_createFolder4_TestC2Ev called 1 returned 100% blocks executed 100%
+function _ZN29handleTest_createFolder4_TestD0Ev called 1 returned 100% blocks executed 100%
+function _ZN29handleTest_createFolder4_TestD2Ev called 1 returned 100% blocks executed 100%
+function _ZN29handleTest_createFolder4_Test8TestBodyEv called 1 returned 100% blocks executed 34%
+        8:   39:TEST_F(handleTest, createFolder4) {
+        1:   39-block  0
+        1:   39-block  1
+call    0 returned 1
+call    1 returned 1
+call    2 returned 1
+call    3 returned 1
+call    4 returned 1
+call    5 returned 1
+call    6 returned 1
+call    7 returned 1
+branch  8 taken 1 (fallthrough)
+branch  9 taken 0 (throw)
+        1:   39-block  2
+call   10 returned 1
+branch 11 taken 1 (fallthrough)
+branch 12 taken 0 (throw)
+        1:   39-block  3
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   39-block  4
+call   16 returned 1
+call   17 returned 1
+call   18 returned 1
+    %%%%%:   39-block  5
+call   19 never executed
+    %%%%%:   39-block  6
+    %%%%%:   39-block  7
+call   20 never executed
+    %%%%%:   39-block  8
+    %%%%%:   39-block  9
+call   21 never executed
+        1:   39-block 10
+        1:   39-block 11
+call   22 returned 1
+call   23 returned 1
+        1:   39-block 12
+        1:   39-block 13
+call   24 returned 1
+        1:   39-block 14
+        1:   40:    result = handlePath::CreateFolder("/home/gongxc/mini/gongxc","mini");
+        1:   40-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   40-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   40-block  2
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   40-block  3
+call   11 returned 1
+call   12 returned 1
+call   13 returned 1
+call   14 returned 1
+    %%%%%:   40-block  4
+call   15 never executed
+    %%%%%:   40-block  5
+    %%%%%:   40-block  6
+call   16 never executed
+    %%%%%:   40-block  7
+    %%%%%:   40-block  8
+call   17 never executed
+    %%%%%:   40-block  9
+    %%%%%:   40-block 10
+call   18 never executed
+    %%%%%:   40-block 11
+call   19 never executed
+    %%%%%:   40-block 12
+        1:   41:    EXPECT_EQ(result,12);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   41-block  0
+call    3 returned 1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 1
+    $$$$$:   41-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    $$$$$:   41-block  2
+call    9 never executed
+call   10 never executed
+branch 11 never executed
+branch 12 never executed
+    $$$$$:   41-block  3
+call   13 never executed
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   41-block  4
+call   16 never executed
+call   17 never executed
+        1:   41-block  5
+call   18 returned 1
+    %%%%%:   41-block  6
+    %%%%%:   41-block  7
+call   19 never executed
+    %%%%%:   41-block  8
+    %%%%%:   41-block  9
+call   20 never executed
+    %%%%%:   41-block 10
+    %%%%%:   41-block 11
+call   21 never executed
+function _GLOBAL__sub_I__ZN29handleTest_createFolder1_Test10test_info_E called 1 returned 100% blocks executed 100%
+function _Z41__static_initialization_and_destruction_0ii called 1 returned 100% blocks executed 61%
+        5:   42:}
+        1:   42-block  0
+        1:   42-block  1
+call    0 returned 1
+        1:   42-block  2
+        1:   42-block  3
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0
+        1:   42-block  4
+branch  3 taken 1 (fallthrough)
+branch  4 taken 0
+        1:   42-block  5
